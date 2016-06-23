@@ -1,0 +1,15 @@
+{
+  "name": "electron-installable-app",
+  "version": "0.1.0",
+  "description": "An Electron app that can install itself",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "deploy": "node createinstaller.js"
+  },
+  "author": "Peter Goes",
+  "devDependencies": {
+    "electron-prebuilt": "1.2.5",
+    "electron-winstaller": "2.3.1"
+  }
+}
